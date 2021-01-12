@@ -1,0 +1,23 @@
+- service: Luxury Rooms
+  description: Clean, updated rooms
+  icon: flaticon-double-bed
+
+- service: Fast & Free Wifi
+  description: All of our rooms are equipped with fast, free wifi for your browsing needs.
+  icon: flaticon-wifi
+
+- service: Call us 24/7
+  description: If you need anything, anytime, we'll be there.
+  icon: flaticon-customer-service
+
+- service: Parking
+  description: Parking is spacious, free, and easy.
+  icon: flaticon-taxi
+
+- service: Accepts Credit Card and Cash
+  description: We accept any credit card as well as cash for payment.
+  icon: flaticon-credit-card
+
+- service: Breakfast
+  description: We offer a free continental breakfast every morning. 
+  icon: flaticon-dinner

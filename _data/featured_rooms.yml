@@ -1,0 +1,31 @@
+- type: Single Rooms
+  price: 156
+  adults: 1-2
+  facilities: Closet with hangers, HD flat-screen TV, telephone
+  size: 20
+  bed: One king-sized bed
+  image: /assets/images/img_1.jpg
+
+- type: Double Room
+  price: 156
+  adults: 1-4
+  facilities: Closet with hangers, HD flat-screen TV, telephone
+  size: 20
+  bed: Two full-sized beds
+  image: /assets/images/img_2.jpg
+
+- type: Jacuzzi Suite
+  price: 156
+  adults: 1-2
+  facilities: Closet with hangers, HD flat-screen TV, telephone, jacuzzi tub
+  size: 20
+  bed: One king-sized bed
+  image: /assets/images/img_3.jpg
+
+- type: Jacuzzi Suite Again
+  price: 156
+  adults: 1-2
+  facilities: Closet with hangers, HD flat-screen TV, telephone, jacuzzi tub
+  size: 20
+  bed: One king-sized bed
+  image: /assets/images/img_4.jpg
