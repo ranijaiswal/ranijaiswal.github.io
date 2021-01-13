@@ -17,7 +17,7 @@
   txt_div_class: text order-1
 
 - type: Jacuzzi Suite
-  price: 156
+  image: /assets/images/jacuzzi2.jpg
   adults: 1-2
   facilities: Closet with hangers, HD flat-screen TV, telephone, jacuzzi tub
   size: 20
