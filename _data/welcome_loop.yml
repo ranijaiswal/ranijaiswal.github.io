@@ -1,8 +1,11 @@
 - slide: Welcome
   text: Stay in the Heart of Mississippi
+  image: /assets/images/flowers.jpeg
 
 - slide: From
   text: From wherever you are...
+  image: /assets/images/path.jpeg
 
 - slide: Home
   text: you can call us home.
+  image: /assets/images/full.jpeg
