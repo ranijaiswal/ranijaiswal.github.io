@@ -19,124 +19,71 @@ title: Rooms | Homegate Inn
         <div class="row mb-5">
           <div class="col-md-7 section-heading">
             <span class="subheading-sm">Rooms</span>
-            <h2 class="heading">Types of Rooms</h2>
+            <h2 class="heading">Our Rooms</h2>
+            <p><strong>Each room comes with the following amenities: flat-screen TV with Direct TV service, telephone, microwave, refrigerator, coffee maker, iron/ironing board, hair dryer, all towels and linens, and high-speed wifi. Our room size is 300 square feet, and each room type has smoking and non-smoking options available.</strong></p>
+            <br/>
           </div>
           {% for item in site.data.room_types %}
           <div class="col-md-12 mb-5">
-            
             <div class="block-3 d-md-flex">
               <div class="{{ item.img_div_class }}" style="background-image: url('{{ item.image }}');"></div>
               <div class= "{{ item.txt_div_class }}">
-
                 <h2 class="heading">{{item.type}}</h2>
                 <ul class="specs mb-5">
                   <li><strong>Occupancy:</strong> {{ item.adults }}</li>
-                  <li><strong>Facilities:</strong> {{ item.facilities }} </li>
-                  <li><strong>Size:</strong> {{ item.size }}m<sup>2</sup></li>
                   <li><strong>Bed Type:</strong> {{ item.bed }}</li>
                 </ul>
-
                 <p><a href="tel:6627734005" class="btn btn-primary py-3 px-5">Call for pricing</a></p>
-
               </div>
             </div>
-
-
           </div>  
           {% endfor %}
         </div>
-        </div>
-        </div>
-    
     <!-- start gallery -->
-
-    <div class="site-section bg-light">
-      <div class="container">
         <div class="row mb-5">
             <div class="col-md-7 section-heading">
               <span class="subheading-sm">Gallery</span>
               <h2 class="heading">More photos</h2>
             </div>
-          </div>
-
-        <div class="block-35">
-          
-          <ul class="nav" id="pills-tab" role="tablist">
-            <li class="nav-item">
-              <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Rooms</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Amenities</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Outdoor</a>
-            </li>
-          </ul>
-          <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-              <div class="row">
-                <div class="col-md-12 block-13">
-                  <div class="nonloop-block-13 owl-carousel">
-                    {% for item in site.data.gallery_rooms %}
-                      <div class="item">
-                        <div class="block-34">
-                          <div class="image"> 
-                            <a href="#"><img src="{{ item.image }}" alt="Image placeholder"></a>
-                            </div>
-                            <div class ="text">
-                              <h2 class="heading">{{ item.heading }}</h2>
-                              <p> {{ item.description }}</p>
-                            </div>
-                            </div>
-                      </div>
-                    {% endfor %}
+        </div>
+        <div class="row">
+          {% for item in site.data.gallery_rooms %}
+            <div class="col-lg-4 mb-5">
+              <div class="block-34">
+                <div class="image"> 
+                  <a href="#"><img src="{{ item.image }}" alt="Image placeholder"></a>
+                </div>
+                <div class ="text">
+                  <p> {{ item.description }}</p>
+                </div>
+                </div>
+            </div>
+          {% endfor %}
+          {% for item in site.data.gallery_amenities %}
+          <div class="col-lg-4 mb-5">              
+            <div class="block-34">
+                <div class="image"> 
+                  <a href="#"><img src="{{ item.image }}" alt="Image placeholder"></a>
                   </div>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-              <div class="row">
-                <div class="col-md-12 block-13">
-                  <div class="nonloop-block-13 owl-carousel">
-                    {% for item in site.data.gallery_amenities %}
-                      <div class="item">
-                        <div class="block-34">
-                          <div class="image"> 
-                            <a href="#"><img src="{{ item.image }}" alt="Image placeholder"></a>
-                            </div>
-                            <div class ="text">
-                              <h2 class="heading">{{ item.heading }}</h2>
-                              <p> {{ item.description }}</p>
-                            </div>
-                            </div>
-                      </div>
-                    {% endfor %}
+                  <div class ="text">
+                    <p> {{ item.description }}</p>
                   </div>
-                </div>
-              </div>
+                  </div>
             </div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-              <div class="row">
-                <div class="col-md-12 block-13">
-                  <div class="nonloop-block-13 owl-carousel">
-                    {% for item in site.data.gallery_outdoor %}
-                      <div class="item">
-                        <div class="block-34">
-                          <div class="image"> 
-                            <a href="#"><img src="{{ item.image }}" alt="Image placeholder"></a>
-                            </div>
-                            <div class ="text">
-                              <h2 class="heading">{{ item.heading }}</h2>
-                              <p> {{ item.description }}</p>
-                            </div>
-                            </div>
-                      </div>
-                    {% endfor %}
-                </div>
-              </div>
+          {% endfor %}
+          {% for item in site.data.gallery_outdoor %}
+            <div class="col-lg-4 mb-5">
+              <div class="block-34">
+                <div class="image"> 
+                  <a href="#"><img src="{{ item.image }}" alt="Image placeholder"></a>
+                  </div>
+                  <div class ="text">
+                    <p> {{ item.description }}</p>
+                  </div>
+                  </div>
             </div>
+          {% endfor %}
+            
         </div>
 </div>
 </div>

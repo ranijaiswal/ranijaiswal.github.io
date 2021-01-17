@@ -7,9 +7,6 @@
 - image: /assets/images/gallery/amenities/microfridge1.jpg
   heading: Microfridge
   description: Each room contains a microwave, refrigerator, and coffee maker, as well as a table and chair.
-- image: /assets/images/gallery/amenities/microfridge2.jpg
-  heading: Microfridge
-  description: Each room contains a microwave, refrigerator, and coffee maker, as well as a table and chair.
 - image: /assets/images/gallery/amenities/tv.jpg
   heading: Flat-screen TV
   description: Each room comes with a flat-screen TV with DirectTV service. 

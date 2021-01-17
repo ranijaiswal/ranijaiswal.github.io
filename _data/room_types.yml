@@ -1,17 +1,13 @@
 - type: Single Room
   image: /assets/images/single.JPEG
   adults: 1-2
-  facilities: Closet with hangers, HD flat-screen TV, telephone
-  size: 20
   bed: One king-sized bed
   img_div_class: image
   txt_div_class: text
 
 - type: Double Room
   image: /assets/images/double.jpg
-  adults: 1-4
-  facilities: Closet with hangers, HD flat-screen TV, telephone
-  size: 20
+  adults: 2-4
   bed: Two full-sized beds
   img_div_class: image order-2
   txt_div_class: text order-1
@@ -19,8 +15,6 @@
 - type: Jacuzzi Suite
   image: /assets/images/jacuzzi2.jpg
   adults: 1-2
-  facilities: Closet with hangers, HD flat-screen TV, telephone, jacuzzi tub
-  size: 20
   bed: One king-sized bed
   img_div_class: image
   txt_div_class: text
