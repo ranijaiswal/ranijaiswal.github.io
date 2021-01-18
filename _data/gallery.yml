@@ -1,0 +1,22 @@
+- image: /assets/images/gallery/rooms/single1.jpg
+  description: This is a single room, with one king-sized bed.
+- image: /assets/images/gallery/rooms/double1.jpg
+  description: This is a double room, with two full-sized beds.
+- image: /assets/images/gallery/rooms/double2.jpg
+  description: This is a double room, with two full-sized beds.
+- image: /assets/images/gallery/rooms/jac.jpg
+  description: This is a jacuzzi suite, with a king-sized bed and a large jacuzzi tub.
+- image: /assets/images/gallery/outdoor/window_view.jpg
+  description: Each room has a window with either a highway view or a forest view.
+- image: /assets/images/gallery/outdoor/back.jpg
+  description: The back of the hotel overlooks a forest, and the rooms here are our quietest.
+- image: /assets/images/gallery/outdoor/front.JPEG
+  description: The front of the hotel has a large parking lot and lawn, and overlooks the highway.
+- image: /assets/images/gallery/amenities/sink.jpg
+  description: Each room contains a sink area with a large vanity counter top, along with an iron, hair dryer, and clothes hangers.
+- image: /assets/images/gallery/amenities/tv.jpg
+  description: Each room comes with a flat-screen TV with DirectTV service, as well as a table and chair. 
+- image: /assets/images/gallery/amenities/microfridge2.jpg
+  description: Each room contains a microwave, refrigerator, and coffee maker.
+- image: /assets/images/gallery/amenities/bathroom.jpg
+  description: Each bathroom contains a full-sized tub with shower, toilet, and towels.

@@ -20,7 +20,8 @@ title: Rooms | Homegate Inn
           <div class="col-md-7 section-heading">
             <span class="subheading-sm">Rooms</span>
             <h2 class="heading">Our Rooms</h2>
-            <p><strong>Each room comes with the following amenities: flat-screen TV with Direct TV service, telephone, microwave, refrigerator, coffee maker, iron/ironing board, hair dryer, all towels and linens, and high-speed wifi. Our room size is 300 square feet, and each room type has smoking and non-smoking options available.</strong></p>
+            <p><strong>We provide the following amenities in every room: flat-screen TV with Direct TV service, telephone, microwave, refrigerator, coffee maker, iron/ironing board, hair dryer, all towels and linens, and high-speed wifi. </strong></p>
+            <p><strong>Our room size is 300 square feet, and we have both smoking and non-smoking options available.</strong></p>
             <br/>
           </div>
           {% for item in site.data.room_types %}
@@ -47,7 +48,7 @@ title: Rooms | Homegate Inn
             </div>
         </div>
         <div class="row">
-          {% for item in site.data.gallery_rooms %}
+          {% for item in site.data.gallery %}
             <div class="col-lg-4 mb-5">
               <div class="block-34">
                 <div class="image"> 
@@ -59,31 +60,6 @@ title: Rooms | Homegate Inn
                 </div>
             </div>
           {% endfor %}
-          {% for item in site.data.gallery_amenities %}
-          <div class="col-lg-4 mb-5">              
-            <div class="block-34">
-                <div class="image"> 
-                  <a href="#"><img src="{{ item.image }}" alt="Image placeholder"></a>
-                  </div>
-                  <div class ="text">
-                    <p> {{ item.description }}</p>
-                  </div>
-                  </div>
-            </div>
-          {% endfor %}
-          {% for item in site.data.gallery_outdoor %}
-            <div class="col-lg-4 mb-5">
-              <div class="block-34">
-                <div class="image"> 
-                  <a href="#"><img src="{{ item.image }}" alt="Image placeholder"></a>
-                  </div>
-                  <div class ="text">
-                    <p> {{ item.description }}</p>
-                  </div>
-                  </div>
-            </div>
-          {% endfor %}
-            
         </div>
 </div>
 </div>
